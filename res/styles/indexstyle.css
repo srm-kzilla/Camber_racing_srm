@@ -1,16 +1,44 @@
 nav {
-    background-color: var(--secondary-color) !important;
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
-#second-navbar{
-    padding-top: 10px;
+.brand-logo {
+    background-color: black;
+    margin-left: 75px !important;
+    padding: 50px 20px 0 20px !important;
 }
 
-@media only screen and (max-width: 440px) {
-    #second-navbar {
-      padding-top: 20px;
-    }
-    nav {
-        line-height: 1.5 !important;
-    }
+nav ul a {
+    color: black !important;
+    padding: 50px 20px 0 20px !important;
+}
+
+.carousel {
+    height: 500px !important;
+}
+
+.container {
+    position: relative;
+    color: white;
+    width: 100% !important;
   }
+
+.top-left {
+    position: absolute;
+    color: black;
+    top: 20px;
+    left: 50px;
+    background-color: white;
+    width: fit-content !important;
+}
+
+.top-right {
+    position: absolute;
+    color: white;
+    top: 20px;
+    right: 0px;
+    width: 350px !important;
+    background-color: black;
+    padding: 10px;
+}
