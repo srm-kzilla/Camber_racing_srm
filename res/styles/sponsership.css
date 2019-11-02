@@ -7,5 +7,9 @@
                 }
                 
                 #my-card {
-                    background-color: brown !important;
+                    background-color: rgb(42, 81, 165) !important;
                 }
+                #margin { 
+                    margin: 0 !important;
+                    padding: 0 !important; 
+                  }
