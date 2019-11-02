@@ -1,44 +1,45 @@
-nav {
-    background: transparent !important;
-    box-shadow: none !important;
+nav ul li{
+    line-height: 30px !important;
+    padding-right: 10px !important;
 }
 
 .brand-logo {
-    background-color: black;
-    margin-left: 75px !important;
-    padding: 50px 20px 0 20px !important;
-}
-
-nav ul a {
+    padding-left: 10px !important;
     color: black !important;
-    padding: 50px 20px 0 20px !important;
 }
 
-.carousel {
-    height: 500px !important;
+.material-icons {
+    display: inline-block !important;
 }
 
-.container {
-    position: relative;
-    color: white;
-    width: 100% !important;
-  }
+nav {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+}
 
-.top-left {
-    position: absolute;
-    color: black;
-    top: 20px;
-    left: 50px;
-    background-color: white;
+nav ul li a {
+    color: black !important;
+    text-align: center !important;
+    padding: 0px 15px;
+
+}
+
+.current-tab {
+    border-top: 5px solid #141414 !important;
+}
+
+nav ul {
     width: fit-content !important;
 }
 
-.top-right {
-    position: absolute;
-    color: white;
-    top: 20px;
-    right: 0px;
-    width: 350px !important;
-    background-color: black;
-    padding: 10px;
+#vertical-line{
+    border-left: 1px solid grey;
+    height: 30px !important;
+}
+
+.design-hover:hover{
+    background-color: #000000 !important;
+    color: white !important;
+    z-index: 999 !important;
 }
