@@ -43,3 +43,8 @@ nav ul {
     color: white !important;
     z-index: 999 !important;
 }
+
+.carousel .indicators {
+    text-align: left !important;
+    padding-left: 15px !important;
+}

@@ -16,26 +16,45 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo"><img src="https://thestartupexpert.net/wp-content/uploads/2016/04/sample-logo.png" width="120" alt="Camber Racing Logo"></a>
+            <a href="#" class="brand-logo"><img
+                    src="https://thestartupexpert.net/wp-content/uploads/2016/04/sample-logo.png" width="120"
+                    alt="Camber Racing Logo"></a>
         </div>
     </nav>
     <nav>
         <div class="nav-wrapper">
             <ul id="nav-mobile nav-two" class="brand-logo center hide-on-med-and-down">
                 <li><a class="current-tab" href="#">Home</a></li>
-                    <li id="vertical-line"></li>
+                <li id="vertical-line"></li>
                 <li><a href="#" class="design-hover">About Us</a></li>
-                    <li id="vertical-line"></li>
-                <li><a href="#" class="design-hover">Our Cars</a></li><li id="vertical-line"></li>
-                <li><a href="#" class="design-hover">Our Sponsors</a></li><li id="vertical-line"></li>
-                <li><a href="#" class="design-hover">Our Team</a></li><li id="vertical-line"></li>
-                <li><a href="#" class="design-hover">Gallery</a></li><li id="vertical-line"></li>
+                <li id="vertical-line"></li>
+                <li><a href="#" class="design-hover">Our Cars</a></li>
+                <li id="vertical-line"></li>
+                <li><a href="#" class="design-hover">Our Sponsors</a></li>
+                <li id="vertical-line"></li>
+                <li><a href="#" class="design-hover">Our Team</a></li>
+                <li id="vertical-line"></li>
+                <li><a href="#" class="design-hover">Gallery</a></li>
+                <li id="vertical-line"></li>
                 <li><a href="#" class="design-hover">Contact Us</a></li>
             </ul>
         </div>
     </nav>
-
+    <div class="row">
+        <div class="carousel carousel-slider col s12 m10 offset-m1">
+            <a class="carousel-item" href="#one!"><img src="https://picsum.photos/1000/400"></a>
+            <a class="carousel-item" href="#two!"><img src="https://picsum.photos/1000/400"></a>
+            <a class="carousel-item" href="#three!"><img src="https://picsum.photos/1000/400"></a>
+            <a class="carousel-item" href="#four!"><img src="https://picsum.photos/1000/400"></a>
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+    </script>
 </body>
 
 </html>
