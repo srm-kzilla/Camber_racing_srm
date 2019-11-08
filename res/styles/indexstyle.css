@@ -51,7 +51,7 @@ nav ul {
 
 .footer {
     background-color: #0078FF;
-    color: var(white);
+    color:white;
     min-height: fit-content;
     text-align: left;
     font-family: Galano, Acumin, sans-serif !important;
@@ -65,11 +65,11 @@ nav ul {
 }
 
 .footer-item h6 {
-    color: var(--secondary-color);
+    color: white;
 }
 
 .footer-item ul {
-    color: var(--secondary-color);
+    color: white;
     list-style-type: none;
 }
 
