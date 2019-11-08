@@ -50,10 +50,11 @@ nav ul {
 }
 
 .footer {
-    background-color: var(--secondary-color);
-    color: var(--background-color);
+    background-color: #0078FF;
+    color: var(white);
     min-height: fit-content;
-    text-align: center;
+    text-align: left;
+    font-family: Galano, Acumin, sans-serif !important;
 }
 
 .footer-item {
@@ -64,20 +65,17 @@ nav ul {
 }
 
 .footer-item h6 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .footer-item ul {
+    color: var(--secondary-color);
     list-style-type: none;
 }
 
-hr {
-    display: block;
-    margin-top: 1.0em;
-    margin-bottom: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    border-color: #ffc107;
-}
+@font-face {
+    font-family: "Galano";
+    src: url("../../fonts/GalanoGrotesqueDEMOBold.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
